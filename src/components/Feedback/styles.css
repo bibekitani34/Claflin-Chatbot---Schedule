@@ -1,0 +1,32 @@
+.feedback {
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+
+    text-align: center;
+}
+.field {
+	width: 100%;
+}
+.field h2 {
+    font-size: 1.12rem;
+    font-weight: 200;
+    margin-bottom: 50px;
+    color: white;
+}
+.field ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+ul li {
+    list-style: none;
+}
+li img {
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+}

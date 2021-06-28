@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+
+	--ff: "Roboto", sans-serif; /* font family */
+}
+body {
+	font-size: 10px;
+	font-family: var(--ff);
+	margin: 0;
+	padding: 0;
+
+	height: 100vh;
+
+	background: #013366;
+}
+main {
+	width: 100%;
+	height: calc(100vh - 120px);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+	height: 120px;
+	padding: 15px 0;
+	background: #fff;
+
+	display: flex;
+	justify-content: center;
+}
